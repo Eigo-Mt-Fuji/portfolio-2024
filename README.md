@@ -20,6 +20,7 @@
 - 実践keyclock openidconnect oauth2.0を利用したモダンアプリケーションのセキュリティ保護
 - efficient linux コマンドライン
 - カオスエンジニアリング
+- 生成ai https://news.yahoo.co.jp/articles/5678f1f8b17d6e4120fe559be1501c150d7dbe58?page=2%
 
 ### 文学・歴史
 
