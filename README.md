@@ -61,7 +61,7 @@
 - **Python Distilled AUTHOR David M. Beazley　著、鈴木 駿　訳**
 - エンジニア時間管理術
 - エレガントな問題解決
-- 実践keyclock openidconnect oauth2.0を利用したモダンアプリケーションのセキュリティ保護
+- 実践keycloak openidconnect oauth2.0を利用したモダンアプリケーションのセキュリティ保護
 - efficient linux コマンドライン
 - カオスエンジニアリング
 
