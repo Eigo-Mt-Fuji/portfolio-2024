@@ -85,6 +85,7 @@
     - 大転職時代、
 
 - Azure OpenAI Serviceではじめる ChatGPT/LLMシステム構築入門　技術評論社　20240206
+- Google Vertex AIによるアプリケーション開発 20240120
 
 ### 文学・歴史
 
