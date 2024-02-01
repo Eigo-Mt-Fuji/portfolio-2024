@@ -59,6 +59,8 @@
 ```
 
 - **Python Distilled AUTHOR David M. Beazley　著、鈴木 駿　訳**
+- APIデザインパターン(GoogleのAPI設計ルールに学ぶWeb API開発のベストプラクティス)
+- マイクロサービスパターン(実践的システムデザインのためのコード解説)
 - エンジニア時間管理術
 - エレガントな問題解決
 - 実践keycloak openidconnect oauth2.0を利用したモダンアプリケーションのセキュリティ保護
