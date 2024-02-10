@@ -3,7 +3,7 @@
 
 ## 次のアクション
 
-https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs/2024%E5%B9%B42%E6%9C%883%E6%97%A5_%E7%94%9F%E6%88%90AI.md
+https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F2024%E5%B9%B42%E6%9C%888%E6%97%A5_%E7%94%9F%E6%88%90AI%E5%AD%A6%E7%BF%92.md
 
 ## 本は心の栄養(読書候補,予算年間12万円／20冊程度)
 
