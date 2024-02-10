@@ -7,7 +7,7 @@
 
 - 生成AI https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F2024%E5%B9%B42%E6%9C%888%E6%97%A5_%E7%94%9F%E6%88%90AI%E5%AD%A6%E7%BF%92.md
 
-- SRE活動 TBD
+- SRE活動 ECS、負荷試験、進め方おさらいしてタスクを蒸留・K6ツール試す、Datado クエリ書き方練習
 
 - 職業能力開発 https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F2024%E5%B9%B42%E6%9C%884%E6%97%A5_%E6%88%A6%E7%95%A5%E6%80%9D%E8%80%83.md
 
