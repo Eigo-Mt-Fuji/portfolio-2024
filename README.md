@@ -9,7 +9,7 @@
 
 - SRE活動 TBD
 
-- 職業能力開発 TBD
+- 職業能力開発 https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F2024%E5%B9%B42%E6%9C%884%E6%97%A5_%E6%88%A6%E7%95%A5%E6%80%9D%E8%80%83.md
 
 ## 本は心の栄養(読書候補,予算年間12万円／20冊程度)
 
