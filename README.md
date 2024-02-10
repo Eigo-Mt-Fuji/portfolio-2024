@@ -3,7 +3,13 @@
 
 ## 次のアクション
 
-https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F2024%E5%B9%B42%E6%9C%888%E6%97%A5_%E7%94%9F%E6%88%90AI%E5%AD%A6%E7%BF%92.md
+- 投資能力開発 https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F%E6%8A%95%E8%B3%87%E8%83%BD%E5%8A%9B%E9%96%8B%E7%99%BA%2F20240210_%E6%B6%88%E8%B2%BB%E8%80%85%E7%89%A9%E4%BE%A1%E6%8C%87%E6%95%B0%E3%81%A8%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E7%8E%87%E3%81%A8%E8%B3%83%E9%87%91%E4%B8%8A%E6%98%87%E3%81%A8%E9%87%91%E5%88%A9%E5%B7%AE%E6%8B%A1%E5%A4%A7.md
+
+- 生成AI https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F2024%E5%B9%B42%E6%9C%888%E6%97%A5_%E7%94%9F%E6%88%90AI%E5%AD%A6%E7%BF%92.md
+
+- SRE活動 TBD
+
+- 職業能力開発 TBD
 
 ## 本は心の栄養(読書候補,予算年間12万円／20冊程度)
 
