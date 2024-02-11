@@ -3,6 +3,8 @@
 ## 次のアクション
 
 - 投資能力開発  [Next](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs/%E6%8A%95%E8%B3%87%E8%83%BD%E5%8A%9B%E9%96%8B%E7%99%BA/20240211_%20%E6%8A%95%E8%B3%87%E8%83%BD%E5%8A%9B%E9%96%8B%E7%99%BA.md)
+  - 決算書の見るべきポイントをmoomooで学ぶ(投資能力を磨くための次のアクション)
+  
 - 生成AI [Next](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F2024%E5%B9%B42%E6%9C%888%E6%97%A5_%E7%94%9F%E6%88%90AI%E5%AD%A6%E7%BF%92.md)
   - モデルガーデンに公開されているモデルの一覧を確認し、生成AIと非基盤モデル。
   - モデルガーデンのフィルターの項目に用意された分類の定義を理解する
