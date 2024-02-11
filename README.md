@@ -9,7 +9,8 @@
 
 - SRE活動 ECS、負荷試験、進め方おさらいしてタスクを蒸留・K6ツール試す、Datado クエリ書き方練習
 
-- 職業能力開発 https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F2024%E5%B9%B42%E6%9C%884%E6%97%A5_%E6%88%A6%E7%95%A5%E6%80%9D%E8%80%83.md
+- 職業能力開発
+  - https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs/%E8%81%B7%E8%83%BD%E9%96%8B%E7%99%BA/2024%E5%B9%B42%E6%9C%8811%E6%97%A5_%E3%83%87%E3%83%BC%E3%82%BF%E3%81%A7%E8%A9%B1%E3%81%99%E7%B5%84%E7%B9%94%E3%81%A8%E3%81%84%E3%81%86%E6%9B%B8%E7%B1%8D%E3%82%92%E3%81%AA%E3%81%9C%E8%AA%AD%E3%82%80.md#%E6%AC%A1%E3%81%AE%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3
 
 ## 本は心の栄養(読書候補,予算年間12万円／20冊程度)
 
