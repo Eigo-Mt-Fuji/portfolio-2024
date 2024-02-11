@@ -1,4 +1,3 @@
-
 # portfolio-2024
 
 ## 次のアクション
@@ -6,6 +5,11 @@
 - 投資能力開発  [Next](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs/%E6%8A%95%E8%B3%87%E8%83%BD%E5%8A%9B%E9%96%8B%E7%99%BA/20240211_%20%E6%8A%95%E8%B3%87%E8%83%BD%E5%8A%9B%E9%96%8B%E7%99%BA.md)
 - 生成AI [Next](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F2024%E5%B9%B42%E6%9C%888%E6%97%A5_%E7%94%9F%E6%88%90AI%E5%AD%A6%E7%BF%92.md)
 - SRE活動 [Next](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs/2024%E5%B9%B42%E6%9C%8811%E6%97%A5_SRE%E6%B4%BB%E5%8B%95.md)
+  - Amazon Linux https://hub.docker.com/_/amazonlinux/ に移行する場合のマシンイメージ、インスタンスタイプとスペックの候補を考えておく（サンプルがあるか探しておく）
+  - Datadogクエリ書き方GPTさんに聞く
+  - k6の使い方実例調べて書いてみる
+
+
 - 職業能力開発 [Next](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs/%E8%81%B7%E8%83%BD%E9%96%8B%E7%99%BA/2024%E5%B9%B42%E6%9C%8811%E6%97%A5_%E3%83%87%E3%83%BC%E3%82%BF%E3%81%A7%E8%A9%B1%E3%81%99%E7%B5%84%E7%B9%94%E3%81%A8%E3%81%84%E3%81%86%E6%9B%B8%E7%B1%8D%E3%82%92%E3%81%AA%E3%81%9C%E8%AA%AD%E3%82%80.md#%E6%AC%A1%E3%81%AE%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3)
     - 「暗記する」戦略思考の復習に集中
     - 代わりの書籍を探す「クリティカルシンキング」、「論点を研ぐ」
