@@ -17,7 +17,7 @@
   - k6の使い方実例調べて書いてみる
 
 
-- 職業能力開発 [Nexthttps://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F%E8%81%B7%E8%83%BD%E9%96%8B%E7%99%BA%2F2024%E5%B9%B42%E6%9C%8812%E6%97%A5_%E6%88%A6%E7%95%A5%E6%80%9D%E8%80%83.md)
+- 職業能力開発 [Next](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F%E8%81%B7%E8%83%BD%E9%96%8B%E7%99%BA%2F2024%E5%B9%B42%E6%9C%8812%E6%97%A5_%E6%88%A6%E7%95%A5%E6%80%9D%E8%80%83.md)
     - 「暗記する」戦略思考の復習に集中
       - STEP1、戦略スイッチ7を復習
     - 代わりの書籍を探す「クリティカルシンキング」、「論点を研ぐ」
