@@ -102,3 +102,4 @@ model = AutoModelForCausalLM.from_pretrained("distilgpt2")
   - pipelineとAutoTokenizer, AutoModelForCausalLMの違いは?
   - どんな使われ方をしてる?
   
+ワークフローってzappierとかslack,github + 生成ai か？だとするとどこで動かすかはほどほどにして、何と何をフローにのせてどう組み立てるか、乗せたときの制約などの特徴にフォーカス
