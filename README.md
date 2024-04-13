@@ -1,5 +1,68 @@
 # portfolio-2024
 
+## 振り返る
+
+```
+https://github.com/Eigo-Mt-Fuji/exercise-langchain
+https://github.com/Eigo-Mt-Fuji/dolly-japanese-gpt-on-aws
+https://github.com/Eigo-Mt-Fuji/portfolio-2024
+https://github.com/Eigo-Mt-Fuji/efg-terraform-2024/tree/main/terraform
+```
+
+```
+https://github.com/Eigo-Mt-Fuji/catchup-nextjs-13-14
+https://github.com/Eigo-Mt-Fuji/cognito-login-driver-web
+https://github.com/Eigo-Mt-Fuji/my-codereview-ai-202309
+https://github.com/Eigo-Mt-Fuji/cognito-jwt-verify-client
+https://github.com/Eigo-Mt-Fuji/portfolio-2023
+```
+
+```
+https://github.com/Eigo-Mt-Fuji/efg-confidential/issues/42 [企画]2022年7月夏季休暇プラン 改め ぼくの夏休み30days
+https://github.com/Eigo-Mt-Fuji/efg-confidential/issues/38 ユーザストーリーマッピング（機能分解・機能定義）をスマートにやりたい
+https://github.com/Eigo-Mt-Fuji/efg-confidential/issues/32 概念データモデリングをスマートにやりたい。(=システム化計画・概念データ設計)
+https://github.com/Eigo-Mt-Fuji/efg-confidential/issues/27 [案件準備]NextJsについて事前学習
+https://github.com/Eigo-Mt-Fuji/efg-confidential/issues/25 [案件準備]設計時のモデリング方法
+https://github.com/Eigo-Mt-Fuji/efg-confidential/issues/24 [観点・分析]基本設計・機能設計に必要な情報を具体例を見て考える
+https://github.com/Eigo-Mt-Fuji/efg-terraform-2022/tree/main/terraform-components
+https://github.com/Eigo-Mt-Fuji/golang-training-202209
+https://github.com/Eigo-Mt-Fuji/skillcheck-template-go
+https://github.com/Eigo-Mt-Fuji/nextjs-neardev-rust-template
+https://github.com/Eigo-Mt-Fuji/portfolio-2022
+```
+
+```
+https://github.com/Eigo-Mt-Fuji/efg-terraform-2021/tree/main/terraform/components
+https://github.com/Eigo-Mt-Fuji/fx-report
+https://github.com/Eigo-Mt-Fuji/portfolio-2021
+https://github.com/Eigo-Mt-Fuji/efg-laravel-serverless-2021-1
+https://github.com/Eigo-Mt-Fuji/efg-laravel-serverless-2021-2
+https://github.com/Eigo-Mt-Fuji/efg-laravel-serverless-2021-3
+```
+
+```
+https://github.com/Eigo-Mt-Fuji/efg-ansible-cloudformation-2020
+https://github.com/Eigo-Mt-Fuji/portfolio-2020
+```
+
+```
+https://github.com/Eigo-Mt-Fuji/efg-terraform-2019/tree/master/terraform
+https://github.com/Eigo-Mt-Fuji/portfolio-2019
+https://github.com/Eigo-Mt-Fuji/redash
+```
+
+```
+https://github.com/Eigo-Mt-Fuji/portfolio-2018
+https://github.com/Eigo-Mt-Fuji/linuxacademy-subject
+https://github.com/Eigo-Mt-Fuji/rails-training
+https://github.com/Eigo-Mt-Fuji/elixir-book
+```
+
+```
+https://github.com/Eigo-Mt-Fuji/efg-ansible-cloudformation-2017
+https://github.com/Eigo-Mt-Fuji/portfolio-2017
+```
+
 ## 次のアクション
 
 - 投資能力開発  [Next](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs/%E6%8A%95%E8%B3%87%E8%83%BD%E5%8A%9B%E9%96%8B%E7%99%BA/20240211_%20%E6%8A%95%E8%B3%87%E8%83%BD%E5%8A%9B%E9%96%8B%E7%99%BA.md)
