@@ -16,3 +16,5 @@ https://github.com/e2b-dev/e2b-cookbook/blob/main/examples%2Fllama-3-code-interp
 Llama3試したけど、出力速すぎてやばい
 この文量が一瞬で出力されるのはレベチ (倍速してない)
 脅威の「秒速800トークン」を記録...さすがGroq
+
+https://python.langchain.com/docs/integrations/chat/groq/
