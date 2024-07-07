@@ -9,15 +9,15 @@
     - https://aws.amazon.com/jp/certification/certified-ai-practitioner/
   - AWS Certified Machine Learning Engineer - Associate 100usd
     - https://aws.amazon.com/jp/certification/certified-machine-learning-engineer-associate/
-これを読んで一歩前進なるかやってみて考える。取り急ぎ、優先順位と読み方を考える。さて何をすべきか
 
-- アジャイル・イントロダクション 
-- ソフトウェアアーキテクチャハードパーツ 2022
-- 効率的なgo 2024
-- SLO サービスレベル目標 2023
-- 大規模データ管理 2024
-- APIデザインパターン(GoogleのAPI設計ルールに学ぶWeb API開発のベストプラクティス)
-- マイクロサービスパターン(実践的システムデザインのためのコード解説)
+- 読書継続。自己変革とさらなる豊かさを求めて(取り急ぎ、優先順位と読み方を考える。さて何をすべきか)
+  - アジャイル・イントロダクション 
+  - ソフトウェアアーキテクチャハードパーツ 2022
+  - 効率的なgo 2024
+  - SLO サービスレベル目標 2023
+  - 大規模データ管理 2024
+  - APIデザインパターン(GoogleのAPI設計ルールに学ぶWeb API開発のベストプラクティス)
+  - マイクロサービスパターン(実践的システムデザインのためのコード解説)
 
 ```
 https://chatgpt.com/share/f4be894c-6b20-40a7-83bc-47b820ce7d21
