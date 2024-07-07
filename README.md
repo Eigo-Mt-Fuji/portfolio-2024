@@ -81,6 +81,8 @@ https://chatgpt.com/share/f4be894c-6b20-40a7-83bc-47b820ce7d21
 - **論点を研ぐ**
 
 - **思考の整理学**
+  - 東大＆京大で1番読まれた本！
+（2014年1月~2023年12月　直近10年文庫ランキング　東大生協・京大生協調べ）
   - https://www.flierinc.com/summary/1153?utm_source=google&utm_medium=cpc&utm_campaign=dsa&gad_source=1&gclid=Cj0KCQjw1qO0BhDwARIsANfnkv8mu6zT2SB8DfAsdCZZQQRFNUxYWbgQgm7sJL6XTWK0sh2gbI_8_88aAgdBEALw_wcB
 
 - 7つの習慣 ティーンズ
