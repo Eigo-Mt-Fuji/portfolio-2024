@@ -158,6 +158,7 @@ https://github.com/Eigo-Mt-Fuji/portfolio-2017
 - **論点を研ぐ**
 
 - **思考の整理学**
+  - https://www.flierinc.com/summary/1153?utm_source=google&utm_medium=cpc&utm_campaign=dsa&gad_source=1&gclid=Cj0KCQjw1qO0BhDwARIsANfnkv8mu6zT2SB8DfAsdCZZQQRFNUxYWbgQgm7sJL6XTWK0sh2gbI_8_88aAgdBEALw_wcB
 
 - 7つの習慣 ティーンズ
   - よい習慣とはなんであったかを考えるきっかけを自分の中に作り出し、牽いてはものにする(習慣化する)ことを目指して
