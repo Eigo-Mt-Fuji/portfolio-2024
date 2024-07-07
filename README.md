@@ -1,8 +1,15 @@
 # portfolio-2024
 
-## アクションプラン
+## 次のアクションプラン
 
-ふりかえりからの、AIで仕立てた専門家への相談からの、自分の感覚で調整したアクションプランからの、これも踏まえて本を探しに出かけ、選んできた。これを読んで一歩前進なるかやってみて考える`
+- AWS認定資格受験に向けた取り組み
+  - AWS認定資格(プロ) 300usd
+    - https://aws.amazon.com/jp/certification/certified-solutions-architect-professional/
+  - AWS AIプラクティショナ 100usd
+    - https://aws.amazon.com/jp/certification/certified-ai-practitioner/
+  - AWS Certified Machine Learning Engineer - Associate 100usd
+    - https://aws.amazon.com/jp/certification/certified-machine-learning-engineer-associate/
+これを読んで一歩前進なるかやってみて考える。取り急ぎ、優先順位と読み方を考える。さて何をすべきか
 
 - アジャイル・イントロダクション 
 - ソフトウェアアーキテクチャハードパーツ 2022
