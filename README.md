@@ -5,6 +5,38 @@
 - AWS認定資格受験に向けた取り組み
   - AWS認定資格(プロ) 300usd `7/31 AM9:00-`
     - https://aws.amazon.com/jp/certification/certified-solutions-architect-professional/
+
+```
+- AWS認定試験 Solution Architect – Professional (SAP-C02) の勉強方法
+    - 参考: https://qiita.com/Tsubasa_Tazaki/items/321eca1d10fd7d6895b1
+    - テストの勉強方法
+        - 教材
+            - 問題集を使う
+                - AWS認定ソリューションアーキテクト－プロフェッショナル～試験特性から導き出した演習問題と詳細解説～ はウェブ版Kindle
+                    - 模擬問題も75問ついていて、解説も分かりやすく丁寧
+        - 時間
+            - 100時間程度（実務で使ってる時間がない前提）
+                - 1日あたりの勉強時間
+                    - 平日17 x 3 = 51h
+                    - 土日(日中) 4h x 8 = 32h
+                    - 寝る前30m x 12.5
+        - 前提の自覚
+            - 一定時間内に一定の量の質問に正解することで、AWSアーキテクトとしての知識を備えていることを証明する
+            - ベストプラクティスに沿った形の選択
+            - 消去法を利用し、選択肢を絞り込む
+            - 問題文を「要件」と「制約」に分ける
+            - 見直しをちゃんとやる
+            - 毎日練習する
+                - 毎日
+                - 模擬問題
+                    - 5～10問程度解く
+                    - 解答を読み
+                    - 解説を読み
+                    - ネットで調べる
+        - 受験日
+            - 7/31
+```
+
   - AWS AIプラクティショナ 100usd
     - https://aws.amazon.com/jp/certification/certified-ai-practitioner/
   - AWS Certified Machine Learning Engineer - Associate 100usd
