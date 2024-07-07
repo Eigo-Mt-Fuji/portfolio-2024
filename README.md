@@ -157,6 +157,8 @@ https://github.com/Eigo-Mt-Fuji/portfolio-2017
 
 - **論点を研ぐ**
 
+- **思考の整理学**
+
 - 話し方入門 Dカーネギー
   - 自信を持って人前で話す自分を当たり前のものにするために
 - 7つの習慣 ティーンズ
@@ -173,12 +175,12 @@ https://github.com/Eigo-Mt-Fuji/portfolio-2017
 - **AI2041 人工知能が変える20年後の未来**
   - 大転職時代要チェック
 
-- **Azure OpenAI Serviceではじめる ChatGPT/LLMシステム構築入門　技術評論社　20240206**
-  - 読解中
+- ~~Azure OpenAI Serviceではじめる ChatGPT/LLMシステム構築入門　技術評論社　20240206~~
+  - Azureのopenaiは組織に属していないと(個人では)実践できないので中止
 - **Google Vertex AIによるアプリケーション開発 20240120**
-  - 読解中
+  - 一読し、Vertex aiを触り、cloud console上で動かすところまでやった。
 - **LangChain完全入門 20231021**
-  - 読解中
+  - 一読し、サンプルを実際にかいて動かすところまでやった。
 
 ### 新書／ベストセラー
 
