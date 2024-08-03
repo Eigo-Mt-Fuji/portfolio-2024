@@ -2,11 +2,9 @@
 
 ## 次のアクションプラン
 
-- AWS認定資格受験に向けた取り組み→無事合格
-  - AWS認定資格(プロ) 300usd `7/31 AM9:00-`
-    - https://aws.amazon.com/jp/certification/certified-solutions-architect-professional/
+- 能力開発継続
 
-  - AIとかアソシエイト系の認定資格受験を活用するなら、AWSプラットフォームとその他のベンダー。どちらがより自分にとって効果的かつメリットがあるか
+https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs/%E8%81%B7%E8%83%BD%E9%96%8B%E7%99%BA/2024%E5%B9%B48%E6%9C%883%E6%97%A5_%E8%83%BD%E5%8A%9B%E9%96%8B%E7%99%BA%E3%82%92%E8%80%83%E3%81%88%E3%82%8B.md
 
 - 読書継続。自己変革とさらなる豊かさを求めて(取り急ぎ、優先順位と読み方を考える。さて何をすべきか)
  
