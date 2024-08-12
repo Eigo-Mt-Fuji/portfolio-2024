@@ -263,3 +263,48 @@ resource "aws_security_group" "this" {
 
   tags = var.tags
 }
+
+resource "aws_vpc_endpoint_service" "this" {
+  acceptance_required    = true
+  network_load_balancer_arns = [aws_lb.this.arn]
+
+  allowed_principals = [
+    "arn:aws:iam::123456789012:root", # 接続を許可するAWSアカウント
+  ]
+
+  tags = var.tags
+}
+
+// // エンドポイントサービスの承認 acceptance_required = trueとした場合、サービスプロバイダー側で接続要求を承認する必要があります。Terraformではなく、AWSコンソールまたはCLIを使用して承認を行います。
+// // この設定により、異なるVPCからPrivateLinkを経由してNLBにアクセスすることができます。プライベートネットワーク内で安全に通信でき、アクセス制御も容易です。Terraformを使用してこの構成をデプロイする場合、VPC IDやサブネットID、IAMポリシーなどを適切に設定してください。
+// resource "aws_vpc_endpoint" "this" {
+//   vpc_id            = var.consumer_vpc_id
+//   service_name      = aws_vpc_endpoint_service.this.service_name
+//   vpc_endpoint_type = "Interface"
+//   subnet_ids        = var.consumer_subnet_ids
+//   security_group_ids = [aws_security_group.consumer_sg.id]
+// 
+//   tags = var.tags
+// }
+
+// resource "aws_security_group" "consumer_sg" {
+//   name        = "${var.component}-consumer-sg"
+//   description = "Allow access to NLB via PrivateLink"
+//   vpc_id      = var.consumer_vpc_id
+// 
+//   ingress {
+//     from_port   = 10224
+//     to_port     = 10224
+//     protocol    = "tcp"
+//     cidr_blocks = ["0.0.0.0/0"]
+//   }
+// 
+//   egress {
+//     from_port   = 0
+//     to_port     = 0
+//     protocol    = "-1"
+//     cidr_blocks = ["0.0.0.0/0"]
+//   }
+// 
+//   tags = var.tags
+// }
