@@ -11,11 +11,15 @@
 
 ## 備忘録
 
+### アーキテクチャ
+
 - ECS Exec は、AWS Systems Manager (SSM) セッションマネージャーを使用して実行中のコンテナとの接続を確立し、AWS Identity and Access Management (IAM) ポリシーを使用して実行中のコンテナで実行中のコマンドへのアクセスを制御
-  - IAMアクセス許可要件
-  - バージョン要件
-  - ファイルアクセス要件
-  - ネットワーク要件
+
+### 要件
+- IAMアクセス許可要件
+- バージョン要件
+- ファイルアクセス要件
+- ネットワーク要件
 
 ```
   IAMアクセス許可要件
@@ -62,7 +66,9 @@
        default(Windows専用)
 ```
 
-- IAM ポリシーを使用した ssm:start-session操作制限
+### 推奨事項・注意事項
+
+- IAM ポリシーを使用した ssm:start-session操作制限の推奨
   - https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-exec.html
     ```
     {
@@ -98,7 +104,7 @@
     }
     ```
 
-- ECS Execのリソース使用
+- ECS ExecによるCPU・メモリリソース使用への留意
   - ECS Exec uses some CPU and memory.
   - You'll want to accommodate for that when specifying the CPU and memory resource allocations in your task definition.
   - following features run as a sidecar container. Therefore, you must specify the container name to run the command on.
@@ -113,6 +119,6 @@
   - To cleanup zombie processes, we recommend adding the initProcessEnabled flag to your task definition
   - Users can run all of the commands that are available within the container context.
 
-- コンテナ上の実行ユーザ仕様
+- コンテナ上の実行ユーザ仕様への留意
   - ECS Exec を使用してコンテナ上でコマンドを実行すると、これらのコマンドは root ユーザーとして実行されます
   - コンテナにユーザー ID を指定しても、SSM エージェントとその子プロセスは root として実行されます
