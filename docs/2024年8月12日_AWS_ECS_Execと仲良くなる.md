@@ -107,9 +107,6 @@
 - ECS ExecによるCPU・メモリリソース使用への留意
   - ECS Exec uses some CPU and memory.
   - You'll want to accommodate for that when specifying the CPU and memory resource allocations in your task definition.
-  - following features run as a sidecar container. Therefore, you must specify the container name to run the command on.
-    - Runtime Monitoring
-    - Service Connect
 
 - ECS Task initProcessEnabledフラグの推奨
   - The following actions might result in orphaned and zombie processes
@@ -122,3 +119,71 @@
 - コンテナ上の実行ユーザ仕様への留意
   - ECS Exec を使用してコンテナ上でコマンドを実行すると、これらのコマンドは root ユーザーとして実行されます
   - コンテナにユーザー ID を指定しても、SSM エージェントとその子プロセスは root として実行されます
+
+
+- ECS Execの２つのコンテナ
+  - following features run as a sidecar container. Therefore, you must specify the container name to run the command on.
+    - Runtime Monitoring  https://docs.aws.amazon.com/guardduty/latest/ug/runtime-monitoring-after-configuration.html
+      - ECS Runtime Monitoring = GuardDutyの1機能
+        - OSレベルのモニタリング。潜在的脅威検出。ファイルアクセス、プロセス実行、ネットワーク接続
+          - Runtime Monitoring uses a GuardDuty security agent that adds visibility into runtime behavior, such as file access, process execution, command line arguments, and network connections
+            - EC2 runtime monitoring 
+              - expands threat detection coverage for EC2 instances at runtime and complement the anomaly detection that Amazon GuardDuty already provides by continuously monitoring VPC flow logs DNS logs and AWS cloud trail management events
+            - Fargate (Amazon ECS only)
+            - EKS runtime monitoring
+    - Service Connect
+      - ECS サービス相互接続の３つの方法 https://docs.aws.amazon.com/ja_jp/AmazonECS/latest/developerguide/interconnecting-services.html
+        - Elastic Load Balancing の使用(インターネットからの外部接続が必要な場合)
+        - Amazon ECS Service Connect https://docs.aws.amazon.com/ja_jp/AmazonECS/latest/developerguide/service-connect.html
+          - 短縮名と標準ポートを使用して、Amazon ECS サービスに接続
+            - 同じクラスターや他のクラスター (同じ AWS リージョン の VPC を含む) 内の Amazon ECS サービスに接続
+          - ECS Service Connect
+
+            ```
+              ・できること
+                    ECS 設定としてサービス間通信を管理
+                        サービス検出
+                        サービスメッシュ
+              ・機能
+                        各サービス内の完全な設定
+                            サービスデプロイごとに管理
+                        名前空間内の統一されたサービス参照方法
+                            VPC DNS 設定に依存しない
+                        標準化されたメトリクスとログ提供（すべてのアプリケーション監視）
+              ・例
+                    　・Service Connect ネットワークの例    
+                        VPC
+                        2 つのサブネット
+                        2 つのサービス
+                            WordPress を実行するクライアントサービス
+                                各サブネットに 1タスク
+                            MySQL を実行するサーバーサービス
+                                各サブネットに 1タスク
+                        WordPress から MySQL への接続
+                            IP アドレス 172.31.16.1 が設定されたタスク内の WordPress コンテナ内からmysql --host=mysql CLI コマンド実行
+                                同じタスク内で Service Connect プロキシ(WordPress タスクのプロキシ)に接続
+                                WordPress タスクのプロキシ
+                                    接続する MySQL タスクを選択
+                                        ラウンドロビン負荷分散と異常値検出に対する以前の障害情報を使用
+              ```
+
+        - Amazon ECS との AWS Cloud Map サービス検出の統合 https://docs.aws.amazon.com/ja_jp/AmazonECS/latest/developerguide/service-discovery.html
+
+```
+              サービス検出のコンポーネント
+                    サービス検出名前空間
+                        同じドメイン名 (example.com など) を共有するサービスの論理グループ
+                            aws servicediscovery create-private-dns-namespace コマンドを使用して名前空間を作成できます
+                    サービス検出サービス
+                        サービス検出名前空間に存在するサービス。
+                            名前空間のサービス名および DNS 設定から構成されます
+                    サービスレジストリ
+                        1 つ以上の利用可能なエンドポイントを返すことができるレジストリ機能
+                            DNS あるいは AWS Cloud Map API アクションを介してサービスを検索し、サービスに接続するために使用できる 1 つ以上の利用可能なエンドポイントを返すことができます
+                    サービスディスカバリインスタンス
+                        サービスディスカバリサービス
+                        サービスディレクトリ
+                        内の各 Amazon ECS サービスに関連付けられた属性で構成されます
+                        インスタンスの属性: 次のメタデータは、サービスディスカバリ を使用するように設定された各 Amazon ECS サービスのカスタム属性として追加されます
+
+```
