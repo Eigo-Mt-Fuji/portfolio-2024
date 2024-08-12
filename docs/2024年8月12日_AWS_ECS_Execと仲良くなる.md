@@ -62,8 +62,57 @@
        default(Windows専用)
 ```
 
+- IAM ポリシーを使用した ssm:start-session操作制限
+  - https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-exec.html
+    ```
+    {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+            "Effect": "Deny",
+            "Action": "ssm:StartSession",
+            "Resource": [
+                "arn:aws:ecs:region:aws-account-id:task/cluster-name/*",
+                "arn:aws:ecs:region:aws-account-id:cluster/*"
+            ]
+        }
+      ]
+    }
+    ```
+
+    ```
+    {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+            "Effect": "Deny",
+            "Action": "ssm:StartSession",
+            "Resource": "arn:aws:ecs:*:*:task/*",
+            "Condition": {
+                "StringEquals": {
+                    "aws:ResourceTag/Task-Tag-Key": "Exec-Task"
+                }
+            }
+        }
+      ]
+    }
+    ```
+
+- ECS Execのリソース使用
+  - ECS Exec uses some CPU and memory.
+  - You'll want to accommodate for that when specifying the CPU and memory resource allocations in your task definition.
+  - following features run as a sidecar container. Therefore, you must specify the container name to run the command on.
+    - Runtime Monitoring
+    - Service Connect
+
+- ECS Task initProcessEnabledフラグの推奨
+  - The following actions might result in orphaned and zombie processes
+    - terminating the main process of the container
+    - terminating the command agent
+    - deleting dependencies
+  - To cleanup zombie processes, we recommend adding the initProcessEnabled flag to your task definition
+  - Users can run all of the commands that are available within the container context.
+
 - コンテナ上の実行ユーザ仕様
   - ECS Exec を使用してコンテナ上でコマンドを実行すると、これらのコマンドは root ユーザーとして実行されます
   - コンテナにユーザー ID を指定しても、SSM エージェントとその子プロセスは root として実行されます
-
-- IAM ポリシーを使用した ssm:start-session操作を拒否して、このアクセスを制限する
