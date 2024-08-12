@@ -11,10 +11,14 @@
 
 ## 備忘録
 
+- ECS Exec は、AWS Systems Manager (SSM) セッションマネージャーを使用して実行中のコンテナとの接続を確立し、AWS Identity and Access Management (IAM) ポリシーを使用して実行中のコンテナで実行中のコマンドへのアクセスを制御
+  - IAMアクセス許可要件
+  - バージョン要件
+  - ファイルアクセス要件
+  - ネットワーク要件
+
 ```
-  アーキテクチャ
-    ECS Exec は、AWS Systems Manager (SSM) セッションマネージャーを使用して実行中のコンテナとの接続を確立し、AWS Identity and Access Management (IAM) ポリシーを使用して実行中のコンテナで実行中のコマンドへのアクセスを制御
-  アクセス許可要件
+  IAMアクセス許可要件
     https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-iam-roles.html#ecs-exec-required-iam-permissions
       {
         "Effect": "Allow",
