@@ -7,7 +7,7 @@
 ## やること
 
 - Langchain conceptual guideチェック https://python.langchain.com/v0.2/docs/concepts/
-  - Langchain
+  - Langgraph
   - Vector stores
   - Messages
   - Selectors
