@@ -121,7 +121,7 @@
   - コンテナにユーザー ID を指定しても、SSM エージェントとその子プロセスは root として実行されます
 
 
-- ECS Execの２つのコンテナ
+- ECS Execを支える２つの特徴的な機能 Runtime Monitoringと Service Connect
   - following features run as a sidecar container. Therefore, you must specify the container name to run the command on.
     - Runtime Monitoring  https://docs.aws.amazon.com/guardduty/latest/ug/runtime-monitoring-after-configuration.html
       - ECS Runtime Monitoring = GuardDutyの1機能
