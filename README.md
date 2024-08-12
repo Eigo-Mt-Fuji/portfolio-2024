@@ -6,6 +6,28 @@
 
 https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs/%E8%81%B7%E8%83%BD%E9%96%8B%E7%99%BA/2024%E5%B9%B48%E6%9C%883%E6%97%A5_%E8%83%BD%E5%8A%9B%E9%96%8B%E7%99%BA%E3%82%92%E8%80%83%E3%81%88%E3%82%8B.md
 
+```
+認定試験を受験しつつ仕事としての道を一本に絞っていく
+    Kubernetes認定 Certified Kubernetes Administrator (CKA)
+        k8sのアーキテクチャ全体と各機能の役割を理解
+        アウトプットできるようになっていれば合格
+        出題範囲に比べて、試験問題は20問程度と少ない
+        3時間で20問程度を解く
+    AWS認定 DOP
+        AWS プラットフォーム上の分散アプリケーションシステムのプロビジョニング、運用、管理に関する技術的専門知識を示し、仲間や関係者、お客様からの信頼と信用を強化するもの
+            これらの適格なプロフェッショナルがいる組織は、安全でコンプライアンスに準拠した、高い可用性とスケーラビリティを持つシステムを迅速に提供することができます
+AWS実践訓練を続ける:
+    NLB x ECS x EC2 x Fluent-bit構成の実践(+ ECS Service Connectを試してみる) https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/terraform/components/logcollector/main.tf
+      起動タイプEC2
+        Amazon Linux 2023
+        Graviton メモリ最適化(r8g)
+      Fluent-bitの最新版 と WASM
+      Blue/Green Deployment
+      その他
+        Capacity Provider利用
+        ECS Exec
+```
+
 - 読書継続。自己変革とさらなる豊かさを求めて(取り急ぎ、優先順位と読み方を考える。さて何をすべきか)
  
   - 効率的なgo 2024 `読んでいく`
