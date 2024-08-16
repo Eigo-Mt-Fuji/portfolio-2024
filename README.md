@@ -8,6 +8,9 @@ https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F%E7%94%9F%E6%88%
 
 https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F2024%E5%B9%B48%E6%9C%8812%E6%97%A5_AWS_ECS_Exec%E3%81%A8%E4%BB%B2%E8%89%AF%E3%81%8F%E3%81%AA%E3%82%8B.md
 
+https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F2024%E5%B9%B48%E6%9C%885%E6%97%A5_%E5%8A%B9%E7%8E%87%E6%80%A7_RAER%EF%BC%88Resource-Aware%20Efficiency%20Requirements%EF%BC%89%E3%81%AB%E6%9B%B8%E3%81%8F%E3%81%B8%E3%82%99%E3%81%8D%E3%81%93%E3%81%A8%E3%81%AE%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B7%E3%82%99.md
+
+
 ```
 認定試験を受験しつつ仕事としての道を一本に絞っていく
     Kubernetes認定 Certified Kubernetes Administrator (CKA)
