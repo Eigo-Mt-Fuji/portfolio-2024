@@ -3,6 +3,9 @@
 ## 次のアクションプラン
 
 - 能力開発継続
+  - 戦略思考と論点を研ぐ 実践投入 202409
+    - ちょうど現場によい機会がある。やってみて答え合わせを11月までに行ってミートアップする
+    - 戦略は置かれた環境と自分ができるすべての技術を踏まえる
   - [生成ai langchain](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F%E7%94%9F%E6%88%90AI%2F2024%E5%B9%B48%E6%9C%8812%E6%97%A5_Langchain%E3%82%B3%E3%83%B3%E3%82%BB%E3%83%95%E3%82%9A%E3%83%88%E5%AD%A6%E7%BF%92.md)
     - https://github.com/Eigo-Mt-Fuji/genai-app/tree/main
   - [SRE活動 AWS ECS編](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F2024%E5%B9%B48%E6%9C%8812%E6%97%A5_AWS_ECS_Exec%E3%81%A8%E4%BB%B2%E8%89%AF%E3%81%8F%E3%81%AA%E3%82%8B.md)
