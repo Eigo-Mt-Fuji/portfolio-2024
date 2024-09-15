@@ -77,7 +77,7 @@ AWS実践訓練を続ける:
 （2014年1月~2023年12月　直近10年文庫ランキング　東大生協・京大生協調べ）
   - https://www.flierinc.com/summary/1153?utm_source=google&utm_medium=cpc&utm_campaign=dsa&gad_source=1&gclid=Cj0KCQjw1qO0BhDwARIsANfnkv8mu6zT2SB8DfAsdCZZQQRFNUxYWbgQgm7sJL6XTWK0sh2gbI_8_88aAgdBEALw_wcB
 
-- 7つの習慣 ティーンズ
+- ~~7つの習慣 ティーンズ~~
   - よい習慣とはなんであったかを考えるきっかけを自分の中に作り出し、牽いてはものにする(習慣化する)ことを目指して
 
 ### 生成ai
@@ -107,9 +107,10 @@ AWS実践訓練を続ける:
 
 tbd
 
-### 文学・歴史
+### 小説・文学・歴史
 
-tbd
+- 地面師たち
+
 
 ## 時系列
 
