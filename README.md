@@ -5,6 +5,7 @@
 - 能力開発継続
   - 戦略思考と論点を研ぐ 実践投入 202409
     - ちょうど現場によい機会がある。やってみて答え合わせを11月までに行ってミートアップする
+     - [戦略思考12スイッチ](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F%E8%81%B7%E8%83%BD%E9%96%8B%E7%99%BA%2F2024%E5%B9%B42%E6%9C%884%E6%97%A5_%E6%88%A6%E7%95%A5%E6%80%9D%E8%80%83.md)
      - https://jinjibu.jp/spcl/takamatsu/cl/detl/5236/
     - 戦略は置かれた環境と自分ができるすべての技術を踏まえる
   - [生成ai langchain](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F%E7%94%9F%E6%88%90AI%2F2024%E5%B9%B48%E6%9C%8812%E6%97%A5_Langchain%E3%82%B3%E3%83%B3%E3%82%BB%E3%83%95%E3%82%9A%E3%83%88%E5%AD%A6%E7%BF%92.md)
