@@ -3,43 +3,65 @@
 ## 次のアクションプラン
 
 - 能力開発継続
-  - 戦略思考と論点を研ぐ 実践投入 202409
-    - ちょうど現場によい機会がある。やってみて答え合わせを11月までに行ってミートアップする
-     - [戦略思考12スイッチ](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F%E8%81%B7%E8%83%BD%E9%96%8B%E7%99%BA%2F2024%E5%B9%B42%E6%9C%884%E6%97%A5_%E6%88%A6%E7%95%A5%E6%80%9D%E8%80%83.md)、置かれた環境、自分ができるすべての技術を踏まえて知恵を絞る。
-  - [生成ai langchain](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F%E7%94%9F%E6%88%90AI%2F2024%E5%B9%B48%E6%9C%8812%E6%97%A5_Langchain%E3%82%B3%E3%83%B3%E3%82%BB%E3%83%95%E3%82%9A%E3%83%88%E5%AD%A6%E7%BF%92.md)
-    - https://github.com/Eigo-Mt-Fuji/genai-app/tree/main
-  - [SRE活動 AWS ECS編](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F2024%E5%B9%B48%E6%9C%8812%E6%97%A5_AWS_ECS_Exec%E3%81%A8%E4%BB%B2%E8%89%AF%E3%81%8F%E3%81%AA%E3%82%8B.md)
-  - [アーキテクチャ設計力改善 - 性能](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F2024%E5%B9%B48%E6%9C%885%E6%97%A5_%E5%8A%B9%E7%8E%87%E6%80%A7_RAER%EF%BC%88Resource-Aware%20Efficiency%20Requirements%EF%BC%89%E3%81%AB%E6%9B%B8%E3%81%8F%E3%81%B8%E3%82%99%E3%81%8D%E3%81%93%E3%81%A8%E3%81%AE%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B7%E3%82%99.md)
-
-
-```
-認定試験を受験しつつ仕事としての道を一本に絞っていく
-    Kubernetes認定 Certified Kubernetes Administrator (CKA)
-        k8sのアーキテクチャ全体と各機能の役割を理解
-        アウトプットできるようになっていれば合格
-        出題範囲に比べて、試験問題は20問程度と少ない
-        3時間で20問程度を解く
-    AWS認定 DOP
-        AWS プラットフォーム上の分散アプリケーションシステムのプロビジョニング、運用、管理に関する技術的専門知識を示し、仲間や関係者、お客様からの信頼と信用を強化するもの
-            これらの適格なプロフェッショナルがいる組織は、安全でコンプライアンスに準拠した、高い可用性とスケーラビリティを持つシステムを迅速に提供することができます
-AWS実践訓練を続ける:
-    NLB x ECS x EC2 x Fluent-bit構成の実践(+ ECS Service Connectを試してみる) https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/terraform/components/logcollector/main.tf
-      起動タイプEC2
-        Amazon Linux 2023
-        Graviton メモリ最適化(r8g)
-      Fluent-bitの最新版 と WASM
-      Blue/Green Deployment
-      その他
-        Capacity Provider利用
-        ECS Exec
-```
-
-- 読書継続。さらなる豊かさを求めて
- 
-  - 効率的なgo 2024 `読んでいく`
-  - ソフトウェアアーキテクチャハードパーツ 2022 `読むぞ`
-  - SLO サービスレベル目標 2023 `読むぞ`
-  - 大規模データ管理 2024 `ほしい`
+  - 認定試験を受験しつつ仕事としての道を一本に絞っていく -> 大谷翔平 目標達成シート 自分に当てはめてみたいと思った -> マンダラチャート https://good-apps.jp/media/column/9136
+    - 運（めぐりあわせ）
+      - 読書継続。さらなる豊かさを求めて
+        - 効率的なgo 2024 `読んでいく`
+        - ソフトウェアアーキテクチャハードパーツ 2022 `読むぞ`
+        - SLO サービスレベル目標 2023 `読むぞ`
+        - 大規模データ管理 2024 `ほしい`
+        - 暇と退屈の倫理学 `読み始めた`
+    - 生成AI
+      - [生成ai langchain](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F%E7%94%9F%E6%88%90AI%2F2024%E5%B9%B48%E6%9C%8812%E6%97%A5_Langchain%E3%82%B3%E3%83%B3%E3%82%BB%E3%83%95%E3%82%9A%E3%83%88%E5%AD%A6%E7%BF%92.md)
+        - https://github.com/Eigo-Mt-Fuji/genai-app/tree/main
+      - AWS AIプラクティショナーになる
+    - AWSソリューションアーキテクト・デベロッパー
+      - Well-architect framework 6つの柱
+      - 最新情報のキャッチアップ
+      - 主要AWSサービスの実践
+        - [SRE活動 AWS ECS編](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F2024%E5%B9%B48%E6%9C%8812%E6%97%A5_AWS_ECS_Exec%E3%81%A8%E4%BB%B2%E8%89%AF%E3%81%8F%E3%81%AA%E3%82%8B.md)
+          - NLB x ECS x EC2 x Fluent-bit構成の実践(+ ECS Service Connectを試してみる) https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/terraform/components/logcollector/main.tf
+            - 起動タイプEC2
+              - Amazon Linux 2023
+              - Graviton メモリ最適化(r8g)
+            - Fluent-bitの最新版 と WASM
+            - Blue/Green Deployment
+            - その他
+              - Capacity Provider利用
+              - ECS Exec
+      - AWS認定 DOP
+        - AWS プラットフォーム上の分散アプリケーションシステムのプロビジョニング、運用、管理に関する技術的専門知識を示し、仲間や関係者、お客様からの信頼と信用を強化するもの
+          - これらの適格なプロフェッショナルがいる組織は、安全でコンプライアンスに準拠した、高い可用性とスケーラビリティを持つシステムを迅速に提供することができます
+      - 現場での応用
+        - =仕事
+    - システムアーキテクチャ
+      - マルチクラウド
+        - Kubernetes認定 Certified Kubernetes Administrator (CKA)
+          - k8sのアーキテクチャ全体と各機能の役割を理解
+            - アウトプットできるようになっていれば合格
+          - 出題範囲に比べて、試験問題は20問程度と少ない. 3時間で20問程度を解く
+      - ノーコード・ローコード
+    - ソフトウェア開発
+      - ソフトウェアアーキテクチャ
+        - プロセス・手法
+          - [アーキテクチャ設計力改善 - 性能](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F2024%E5%B9%B48%E6%9C%885%E6%97%A5_%E5%8A%B9%E7%8E%87%E6%80%A7_RAER%EF%BC%88Resource-Aware%20Efficiency%20Requirements%EF%BC%89%E3%81%AB%E6%9B%B8%E3%81%8F%E3%81%B8%E3%82%99%E3%81%8D%E3%81%93%E3%81%A8%E3%81%AE%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B7%E3%82%99.md)
+        - 実装
+        - プロダクト価値
+    - ビジネス・経済
+      - 付加価値
+        - 戦略思考と論点を研ぐ 実践投入 202409
+          - ちょうど現場によい機会がある。やってみて答え合わせを11月までに行ってミートアップする
+            - [戦略思考12スイッチ](https://github.com/Eigo-Mt-Fuji/portfolio-2024/blob/main/docs%2F%E8%81%B7%E8%83%BD%E9%96%8B%E7%99%BA%2F2024%E5%B9%B42%E6%9C%884%E6%97%A5_%E6%88%A6%E7%95%A5%E6%80%9D%E8%80%83.md)、置かれた環境、自分ができるすべての技術を踏まえて知恵を絞る
+              - 思ったよりリアルな仕事でちょっとがっかりした。
+              - 横展開でできそうな仕事の誘惑には勝てないのか？
+    - 信用・人格
+      - TPOと服装
+      - 時事ネタ・社会情勢
+      - 感情を出す
+      - 相手を理解する
+    - メンタル
+      - ゲームする
+      - 漫画読む
 
 ## 本は心の栄養(読書候補,予算年間12万円／20冊程度)
 
