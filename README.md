@@ -283,6 +283,8 @@ tbd
   - 認定試験を受験しつつ仕事としての道を一本に絞っていく方へ
     - AWS AIプラクティショナ 受験
       - https://aws.amazon.com/jp/certification/certified-ai-practitioner/
+  - 生成AIについて、実践を再開する
+    - https://github.com/Eigo-Mt-Fuji/genai-app/tree/main
   - 大谷翔平選手 x 目標設定 = マンダラチャート で自分の目標を整理するムーブ
     - 運（めぐりあわせ）
     - 生成AI
