@@ -1,7 +1,6 @@
 # portfolio-2024
 
 ## 次のアクションプラン
-https://zenn.dev/ficilcom/articles/t3-turbo-architecture
 - 能力開発継続
   - 認定試験を受験しつつ仕事としての道を一本に絞っていく -> 大谷翔平 目標達成シート 自分に当てはめてみたいと思った -> マンダラチャート https://good-apps.jp/media/column/9136
     - 運（めぐりあわせ）
